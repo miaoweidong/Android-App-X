@@ -1,0 +1,47 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+
+
+
+Exclude idea project configuration files
+.idea
+*.iml
+*.ipr
+*.iws
+*.ids
+*.log
+
+#Exclude eclipse project files
+.classpath
+.project
+.settings
+
+#Exclude OSX system files
+.DS-Store
+.DS_Store
+web-app/plugins
+
+#Exclude project release file
+*.war
+
+#Exclude classes
+target
+/web-app/WEB-INF/classes
+/target/*/*.class
+out
+static
+
+#Exclude gradle files
+build
+gradle
+gradlew
+gradlew.bat
+
+#Exclude db files
+*.db
+
+cobertura.ser
+.sonar
+*-ide-plugin.xml
+
